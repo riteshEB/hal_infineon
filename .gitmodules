@@ -1,0 +1,12 @@
+[submodule "mtb-pdl-cat1"]
+	path = mtb-pdl-cat1
+	url = https://github.com/Infineon/mtb-pdl-cat1.git
+[submodule "mtb-hal-cat1"]
+	path = mtb-hal-cat1
+	url = https://github.com/Infineon/mtb-hal-cat1.git
+[submodule "core-lib"]
+	path = core-lib
+	url = https://github.com/Infineon/core-lib.git
+[submodule "psoc6cm0p"]
+	path = psoc6cm0p
+	url = https://github.com/Infineon/psoc6cm0p.git
