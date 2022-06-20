@@ -49,7 +49,7 @@ if(CONFIG_ADC)
 zephyr_library_sources(COMPONENT_PSOC6HAL/source/cyhal_analog_common.c)
 endif()
 
-if(CONFIG_COUNTER)
+if(CONFIG_COUNTER OR CONFIG_PWM)
 zephyr_library_sources(COMPONENT_PSOC6HAL/source/cyhal_tcpwm_common.c)
 endif()
 
